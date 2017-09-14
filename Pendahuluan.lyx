@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass report
+\begin_preamble
+
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -73,6 +76,17 @@
 
 \begin_layout Chapter
 Pendahuluan
+\end_layout
+
+\begin_layout Standard
+buibiubiubiu 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huth2004logic"
+
+\end_inset
+
+
 \end_layout
 
 \end_body

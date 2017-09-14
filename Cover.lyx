@@ -6,31 +6,7 @@
 \origin unavailable
 \textclass report
 \begin_preamble
-\title{Verifikasi Lampu Lalu Lintas menggunakan Logika Temporal Linear}\let\Title\@title
-\newcommand{\EngTItle}{XXX}
-\author{Agus Budi}\let\Author\@author
-\newcommand{\NIM}{110313xxxx}
-\newcommand{\Prodi}{Teknik Informatika}
-\newcommand{\KK}{ICM}
-\date{2017}\let\Date\@date
-\newcommand{\Tanggal}{28}
-\newcommand{\Bulan}{Agustus}
-\newcommand{\PembimbingSatu}{Pembimbing satu}
-\newcommand{\NIPPembimbingSatu}{12345678}
-\newcommand{\PembimbingDua}{Pembimbing dua}
-\newcommand{\NIPPembimbingDua}{12345678}
 
-
-\usepackage[english]{babel}
-\usepackage{fancyhdr}
-\usepackage{sectsty}
-\usepackage{lipsum}
-\usepackage{titlesec}
-\usepackage{graphicx}
-
-\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
-
-\chapterfont{\centering}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -56,7 +32,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize a4paper
+\papersize default
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
@@ -81,8 +57,6 @@
 \shortcut idx
 \color #008000
 \end_index
-\topmargin 3cm
-\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -101,9 +75,17 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cover.lyx"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+centering 
+\backslash
+Large
+\end_layout
 
 \end_inset
 
@@ -111,50 +93,19 @@ filename "Cover.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
 
+{
+\backslash
+bigsize 
+\backslash
+textbf 
+\backslash
+Title}
 \end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "LembarPersetujuan.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Abstrak.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
 
 \end_inset
 
@@ -162,20 +113,15 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 
-\begin_inset Newpage cleardoublepage
-\end_inset
-
-
+\backslash
+vspace{2cm}
 \end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Pendahuluan.lyx"
 
 \end_inset
 
@@ -183,33 +129,21 @@ filename "Pendahuluan.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
 
-
+\series bold
+Proposal Tugas Akhir
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "KajianPustaka.lyx"
+\begin_inset ERT
+status open
 
-\end_inset
+\begin_layout Plain Layout
 
 
+\backslash
+vspace{0.5cm}
 \end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Metodologi.lyx"
 
 \end_inset
 
@@ -217,17 +151,39 @@ filename "Metodologi.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
+
+\series bold
+Kelas TA 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{0.5cm}
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "References"
-options "plain"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+textbf 
+\backslash
+Author}
+\end_layout
 
 \end_inset
 
@@ -235,16 +191,215 @@ options "plain"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
+
+\series bold
+NIM :
+\series default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+textbf 
+\backslash
+NIM}
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Lampiran.lyx"
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1.5cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Tel-U-Logo.png
+	lyxscale 10
+	scale 17
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+{
+\backslash
+bigsize 
+\end_layout
+
+\end_inset
+
+Program Studi Sarjana 
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf 
+\backslash
+Prodi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{0.5cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Fakultas Informatika
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{0.5cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Universitas Telkom
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{0.5cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Bandung
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{0.5cm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+textbf 
+\backslash
+Date}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
 
 \end_inset
 

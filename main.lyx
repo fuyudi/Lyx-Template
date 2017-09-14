@@ -5,6 +5,34 @@
 \save_transient_properties true
 \origin unavailable
 \textclass report
+\begin_preamble
+\title{Verifikasi Lampu Lalu Lintas menggunakan Logika Temporal Linear}\let\Title\@title
+\newcommand{\EngTItle}{XXX}
+\author{Agus Budi}\let\Author\@author
+\newcommand{\NIM}{110313xxxx}
+\newcommand{\Prodi}{Teknik Informatika}
+\newcommand{\KK}{ICM}
+\date{2017}\let\Date\@date
+\newcommand{\Tanggal}{28}
+\newcommand{\Bulan}{Agustus}
+\newcommand{\PembimbingSatu}{Pembimbing satu}
+\newcommand{\NIPPembimbingSatu}{12345678}
+\newcommand{\PembimbingDua}{Pembimbing dua}
+\newcommand{\NIPPembimbingDua}{12345678}
+\newcommand{\bigsize}{\fontsize{16pt}{14pt}\selectfont}
+
+
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
+
+\chapterfont{\centering}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -29,7 +57,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
@@ -54,6 +82,8 @@
 \shortcut idx
 \color #008000
 \end_index
+\topmargin 3cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -72,8 +102,26 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+\begin_inset CommandInset include
+LatexCommand include
+filename "Cover.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "LembarPersetujuan.lyx"
 
 \end_inset
 
@@ -82,7 +130,44 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Abstrak.lyx"
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
 \end_inset
 
 
@@ -144,6 +229,23 @@ filename "Metodologi.lyx"
 LatexCommand bibtex
 bibfiles "References"
 options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Lampiran.lyx"
 
 \end_inset
 

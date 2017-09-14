@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass report
+\begin_preamble
+\addcontentsline{toc}{chapter}{Lampiran}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -71,12 +74,12 @@
 
 \begin_body
 
-\begin_layout Chapter
-Kajian Pustaka
+\begin_layout Chapter*
+Lampiran
 \end_layout
 
-\begin_layout Section
-Fasda
+\begin_layout Standard
+
 \end_layout
 
 \end_body

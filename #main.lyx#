@@ -5,6 +5,20 @@
 \save_transient_properties true
 \origin unavailable
 \textclass report
+\begin_preamble
+\newcommand{\bigsize}{\fontsize{16pt}{14pt}\selectfont}
+\chapterfont{\centering\bigsize\bfseries}
+\sectionfont{\large\bfseries}
+
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{lipsum}
+
+\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
+
+\chapterfont{\centering}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -29,7 +43,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
@@ -54,6 +68,8 @@
 \shortcut idx
 \color #008000
 \end_index
+\topmargin 3cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -71,12 +87,103 @@
 
 \begin_body
 
-\begin_layout Chapter
-Kajian Pustaka
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Section
-Fasda
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Pendahuluan.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "KajianPustaka.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Metodologi.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Lampiran.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
