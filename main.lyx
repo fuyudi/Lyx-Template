@@ -28,6 +28,8 @@
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{lmodern}
+\usepackage[table]{xcolor}
+
 
 \addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
 \addto{\captionsenglish}{\renewcommand{\bibname}{Daftar Pustaka}}

@@ -15,9 +15,9 @@
 \date{2017}\let\Date\@date
 \newcommand{\Tanggal}{28}
 \newcommand{\Bulan}{Agustus}
-\newcommand{\PembimbingSatu}{Pembimbing satu}
+\newcommand{\PembimbingSatu}{Dr. Calon Pembimbing 1, M.Kom}
 \newcommand{\NIPPembimbingSatu}{12345678}
-\newcommand{\PembimbingDua}{Pembimbing dua}
+\newcommand{\PembimbingDua}{Dr. Calon Pembimbing 2, M.Kom}
 \newcommand{\NIPPembimbingDua}{12345678}
 \newcommand{\bigsize}{\fontsize{16pt}{14pt}\selectfont}
 
