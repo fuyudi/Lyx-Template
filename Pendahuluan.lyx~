@@ -6,7 +6,7 @@
 \origin unavailable
 \textclass report
 \begin_preamble
-\renewcommand{\chaptername}{Lecture}
+
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -79,13 +79,6 @@ Pendahuluan
 \end_layout
 
 \begin_layout Standard
-buibiubiubiu 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "huth2004logic"
-
-\end_inset
-
 
 \end_layout
 

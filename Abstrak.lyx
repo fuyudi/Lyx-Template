@@ -75,5 +75,19 @@
 Abstrak
 \end_layout
 
+\begin_layout Standard
+Tulis abstrak disini ya~~
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+
+\series bold
+Kata Kunci: 
+\series default
+Metode Formal, Logika Temporal Linear, Kalkulus Durasi.
+\end_layout
+
 \end_body
 \end_document

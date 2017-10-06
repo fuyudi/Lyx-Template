@@ -7,7 +7,7 @@
 \textclass report
 \begin_preamble
 \title{Verifikasi Lampu Lalu Lintas menggunakan Logika Temporal Linear}\let\Title\@title
-\newcommand{\EngTItle}{XXX}
+\newcommand{\EngTitle}{XXX}
 \author{Agus Budi}\let\Author\@author
 \newcommand{\NIM}{110313xxxx}
 \newcommand{\Prodi}{Teknik Informatika}
@@ -15,12 +15,11 @@
 \date{2017}\let\Date\@date
 \newcommand{\Tanggal}{28}
 \newcommand{\Bulan}{Agustus}
-\newcommand{\PembimbingSatu}{Pembimbing satu}
+\newcommand{\PembimbingSatu}{Dr. Calon Pembimbing 1, M.Kom}
 \newcommand{\NIPPembimbingSatu}{12345678}
-\newcommand{\PembimbingDua}{Pembimbing dua}
+\newcommand{\PembimbingDua}{Dr. Calon Pembimbing 2, M.Kom}
 \newcommand{\NIPPembimbingDua}{12345678}
 \newcommand{\bigsize}{\fontsize{16pt}{14pt}\selectfont}
-
 
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
@@ -28,13 +27,22 @@
 \usepackage{lipsum}
 \usepackage{titlesec}
 \usepackage{graphicx}
+\usepackage{lmodern}
 
 \addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
+\addto{\captionsenglish}{\renewcommand{\bibname}{Daftar Pustaka}}
 
 \chapterfont{\centering}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
+\begin_local_layout
+Style Chapter*
+Font
+Size	Smaller
+EndFont
+End
+\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
@@ -54,7 +62,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 12
 \spacing single
 \use_hyperref false
 \papersize a4paper
