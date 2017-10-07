@@ -29,7 +29,10 @@
 \usepackage{graphicx}
 \usepackage{lmodern}
 \usepackage[table]{xcolor}
-
+\usepackage{anysize}
+\usepackage{algorithmic}
+\usepackage{geometry}
+\marginsize{4cm}{3cm}{3cm}{3cm}
 
 \addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
 \addto{\captionsenglish}{\renewcommand{\bibname}{Daftar Pustaka}}
@@ -37,6 +40,9 @@
 \chapterfont{\centering}
 \end_preamble
 \use_default_options true
+\begin_modules
+theorems-std
+\end_modules
 \maintain_unincluded_children false
 \begin_local_layout
 Style Chapter*

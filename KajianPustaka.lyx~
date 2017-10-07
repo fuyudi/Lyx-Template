@@ -6,6 +6,9 @@
 \origin unavailable
 \textclass report
 \use_default_options true
+\begin_modules
+theorems-std
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -73,6 +76,105 @@
 
 \begin_layout Chapter
 Kajian Pustaka
+\end_layout
+
+\begin_layout Standard
+Pada bab ini akan menjelaskan teori yang dgunakan selama pengerjaan tugas
+ akhir.
+\end_layout
+
+\begin_layout Section
+Metode Formal
+\end_layout
+
+\begin_layout Standard
+Metode formal merupakan .
+ .
+ .
+ .
+\end_layout
+
+\begin_layout Standard
+Berdasarkan 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huth2004logic"
+
+\end_inset
+
+, penjelasan struktur Kripke secara formal dijelaskan pada Definisi 1.
+\end_layout
+
+\begin_layout Definition
+Model 
+\begin_inset Formula $\mathcal{M}=(S,\to,L)$
+\end_inset
+
+, dengan S adalah himpunan kondisi, 
+\begin_inset Formula $\to$
+\end_inset
+
+adalah relasi antar kondisi, dan L adalah pelabelan proposisi atom ke himpunan
+ kondisi.
+\end_layout
+
+\begin_layout Section
+
+\shape italic
+Model Checker 
+\shape default
+NuSMV
+\end_layout
+
+\begin_layout Standard
+NuSMV adalah 
+\shape italic
+model checker
+\shape default
+ yang .
+ .
+ .
+ .
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contoh Penulisan pada NuSMV
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+MODULE main
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+VAR
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

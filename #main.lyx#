@@ -30,9 +30,7 @@
 \usepackage{lmodern}
 \usepackage[table]{xcolor}
 \usepackage{anysize}
-\usepackage{algorithmic}
-\usepackage{algpseudocode}
-\usepackage{geometry}
+\usepackage{algoriithm}
 \marginsize{4cm}{3cm}{3cm}{3cm}
 
 \addto\captionsenglish{\renewcommand{\chaptername}{Bab}}

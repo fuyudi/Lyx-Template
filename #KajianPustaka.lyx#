@@ -6,6 +6,9 @@
 \origin unavailable
 \textclass report
 \use_default_options true
+\begin_modules
+theorems-std
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -72,11 +75,38 @@
 \begin_body
 
 \begin_layout Chapter
-Metodologi
+Kajian Pustaka
 \end_layout
 
 \begin_layout Standard
+Pada bab ini akan menjelaskan teori yang dgunakan selama pengerjaan tugas
+ akhir.
+\end_layout
 
+\begin_layout Section
+Metode Formal
+\end_layout
+
+\begin_layout Standard
+Metode formal merupakan .
+ .
+ .
+ .
+\end_layout
+
+\begin_layout Standard
+Berdasarkan 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huth2004logic"
+
+\end_inset
+
+, penjelasan struktur Kripke secara formal dijelaskan pada Definisi 1.
+\end_layout
+
+\begin_layout Definition
+Model 
 \end_layout
 
 \end_body
